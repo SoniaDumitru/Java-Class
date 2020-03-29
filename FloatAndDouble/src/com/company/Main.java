@@ -14,8 +14,22 @@ public class Main {
         System.out.println("My min double value: " + myMinDoubleValue);
         System.out.println("My max double value: " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue = (float)5.25;
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3.00;
+
+        System.out.println(myIntValue);
+        System.out.println(myFloatValue);
+        System.out.println(myDoubleValue);
+
+        /* Challenge to convert pounds to kg. */
+        double numberOfPounds = 138d;
+        double resultKg = numberOfPounds * 0.45359237d;
+        System.out.println(resultKg);
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_987_767.4_455_098;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
     }
 }
