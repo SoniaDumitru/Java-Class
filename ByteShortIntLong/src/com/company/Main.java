@@ -32,6 +32,13 @@ public class Main {
         long bigLongLiteralValue = 2_147_483_647L;
         System.out.println(bigLongLiteralValue);
 
+        short bigShortLiteralValue = 32767;
 
-    }
+//        Java Casting
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
+
+        short myNewShortValue = (short)(myMinShortValue / 2);
+
 }
