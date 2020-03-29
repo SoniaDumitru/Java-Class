@@ -24,5 +24,14 @@ public class Main {
         System.out.println("Short Minimum value = " + myMinShortValue);
         System.out.println("Short Maximum value = " + myMaxShortValue);
 
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Minimum value = " + myMinLongValue);
+        System.out.println("Long Maximum value = " + myMaxLongValue);
+
+        long bigLongLiteralValue = 2_147_483_647L;
+        System.out.println(bigLongLiteralValue);
+
+
     }
 }
