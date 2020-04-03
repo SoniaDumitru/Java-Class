@@ -1,4 +1,4 @@
-package com.company;
+package com.timbuchalka;
 
 public class Main {
 
@@ -36,16 +36,16 @@ public class Main {
         //
 
         int highScorePosition = calculateHighScorePosition(1500);
-        displayHighScorePosition("Sonia", highScorePosition);
+        displayHighScorePosition("Tim", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(900);
-        displayHighScorePosition("Lili", highScorePosition);
+        displayHighScorePosition("Bob", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(400);
-        displayHighScorePosition("Diana", highScorePosition);
+        displayHighScorePosition("Percy", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(50);
-        displayHighScorePosition("Gabri", highScorePosition);
+        displayHighScorePosition("Gilbert", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(1000);
         displayHighScorePosition("Louise", highScorePosition);
@@ -79,7 +79,7 @@ public class Main {
             position = 1;
         } else if(playerScore >= 500) {
             position = 2;
-        } else if(playerScore >= 100); {
+        } else if(playerScore >= 100) {
             position = 3;
         }
 
