@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
-
 public class Main {
+
+    // code to test our class
+    public static void main(String[] args) {
+        double miles = SpeedConverter.toMilesPerHour(10.5);
+        System.out.println("Miles = " + miles);
+
+        SpeedConverter.printConversion(10.5);
+    }
+
 }
