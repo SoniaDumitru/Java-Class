@@ -9,5 +9,7 @@ public class Car {
     private String model;
     private String colour;
 
-    public
+    public void setModel(String model){
+        this.model = model;
+    }
 }
