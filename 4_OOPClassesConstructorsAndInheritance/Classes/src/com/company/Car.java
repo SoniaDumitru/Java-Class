@@ -9,7 +9,17 @@ public class Car {
     private String model;
     private String colour;
 
+    // setter
     public void setModel(String model){
-        this.model = model;
+        String validModel = model.toLowerCase();
+        if (validModel.equals("prius") || validModel.equals("Camry")) {
+            this.model = model;
+        } else {
+            this.model = "Unknown";
+        }
+    }
+    // getter
+    public String getModel() {
+        return this.model;
     }
 }
