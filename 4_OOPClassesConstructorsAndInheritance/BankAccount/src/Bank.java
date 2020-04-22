@@ -22,7 +22,7 @@ public class Bank {
         this.email = email;
         this.phone = phone;
     }
-    
+
     public void deposit(double depositAmount) {
         this.balance += depositAmount;
         System.out.println("Deposit of " + depositAmount + " made.");
