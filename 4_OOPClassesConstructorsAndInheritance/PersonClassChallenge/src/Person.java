@@ -38,10 +38,12 @@ public class Person {
     }
 
     public String getFullName() {
-        if (firstName.isEmpty() && lastName.isEmpty()) {
-            return firstName;
-        } else {
-            return (firstName + " " + lastName);
+        if(this.firstName.isEmpty()){
+            return this.lastName;
+        }else if(this.lastName.isEmpty()){
+            return this.firstName;
+        }else {
+            return this.firstName+" "+this.lastName;
         }
     }
 }
