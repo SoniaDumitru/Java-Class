@@ -47,7 +47,5 @@ class Rectangle {
         this.height = height;
     }
 
-    // super example
-    
 }
 
