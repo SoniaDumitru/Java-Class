@@ -13,7 +13,7 @@ public class Case {
     }
 
     public void pressPowerButton() {
-        System.out.printf("Power button pressed");
+        System.out.println("Power button pressed");
     }
 
     public String getModel() {
