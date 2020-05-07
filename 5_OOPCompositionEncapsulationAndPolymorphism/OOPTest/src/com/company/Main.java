@@ -1,8 +1,8 @@
-package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
+        Hamburger hamburger = new Hamburger("Basic", "Sausage", 3.56, "White");
+
         // The purpose of the application is to help a ficticious company called Bills Burgers to manage
         // their process of selling hamburgers.
         // Our application will help Bill to select types of burgers, some of the additional items (additions) to
@@ -33,4 +33,5 @@ public class Main {
         // adding totals to final price.
 
     }
+
 }
